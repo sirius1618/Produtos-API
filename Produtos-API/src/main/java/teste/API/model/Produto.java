@@ -4,7 +4,7 @@ public class Produto {
     private String id;
     private String nome;
     private String descricao;
-    private Double peco;
+    private Double preco;
 
     public String getDescricao() {
         return descricao;
@@ -30,12 +30,12 @@ public class Produto {
         this.id = id;
     }
 
-    public Double getPeco() {
-        return peco;
+    public Double getPreco() {
+        return preco;
     }
 
-    public void setPeco(Double peco) {
-        this.peco = peco;
+    public void setPreco(Double preco) {
+        this.preco = preco;
     }
 
     @Override
@@ -44,7 +44,7 @@ public class Produto {
                 "id='" + id + '\'' +
                 ", nome='" + nome + '\'' +
                 ", descricao='" + descricao + '\'' +
-                ", peco='" + peco + '\'' +
+                ", preco=" + preco +
                 '}';
     }
 }
