@@ -5,6 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+// todo:  essa classe se chama entidade JPA
 @Entity
 @Table(name="produto")
 public class Produto {
